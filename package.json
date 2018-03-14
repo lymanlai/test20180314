@@ -1,0 +1,20 @@
+{
+  "name": "ringcentraltest",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha",
+    "test_q1": "node_modules/mocha/bin/mocha test/q1.js",
+    "test_q3": "node_modules/mocha/bin/mocha test/q3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyman/test20180314"
+  },
+  "author": "lyman lai <lyman@yaha.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
